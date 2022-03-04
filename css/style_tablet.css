@@ -1,0 +1,200 @@
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+/* header */
+
+header {
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+}
+
+#menu {
+    width: 50%;
+}
+
+#menu li {
+    padding: 51px 0 0 0;
+}
+
+#menu .menu_hebergements {
+    margin-right: 30px;
+}
+
+#logo {
+    margin: 30px 0 10px 0px;
+}
+
+/* partie haute */
+
+#top {
+    margin: 10px 0 30px 40px;
+    padding: 0;
+}
+
+/* partie recherche */
+
+.button {
+    left: 294px;
+}
+
+/* partie filtres */
+
+#filtres {
+    flex-direction: column;
+}
+
+#filtres button {
+    padding: 0 10px 0 0;
+    margin: 5px 8px 5px 0;
+}
+
+/* hébergement et populaire */
+
+#accommodationandpopular {
+    flex-direction: column-reverse;
+}
+
+/* partie plus populaires */
+
+#mostpopular {
+    margin: 0 20px;
+    padding: 20px;
+}
+
+#title {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#article_mostpopular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#mostpopular .fa-chart-line {
+    font-size: 25px; 
+}
+
+#mostpopular h2 {
+    margin-left: 0;
+}
+
+#mostpopular article {
+    width: 320px;
+    height: 151px;
+    margin: 0 20px 20px 0;
+}
+
+#mostpopular img {
+    width: 130px;
+}
+
+/* partie hébergements */
+
+#hebergements {
+    margin: 20px;
+    padding: 20px;
+}
+
+#hebergements h2 {
+    margin: 10px 0 20px 0;
+}
+
+.accommodation {
+    justify-content: space-between;
+}
+
+#hebergements article {
+    width: 330px;
+}
+
+/* partie afficher plus */
+
+#plus {
+    margin: 0 0 15px 0;
+}
+
+/* partie activités */
+
+#activites {
+    margin: 20px;
+    padding: 20px;
+}
+
+#horizontal {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#horizontal div {
+    display: flex;
+}
+
+.fortpomegues {
+    margin: 0 94px 20px 0 !important;
+}
+
+.notredame {
+    margin: 0 94px 20px 0 !important;
+}
+
+.parccalanques {
+    position: absolute;
+    right: -8px;
+}
+
+#activites .height {
+    width: 318px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+#activites .width {
+    width: 318px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.ilesfrioul, .parclongchamp {
+    margin: 0 0 20px 44px;
+}
+
+
+.height img {
+    height: 70%;
+}
+
+.width img {
+    height: 70%;
+}
+
+/* footer */
+
+footer {
+    padding: 20px 0px 50px 10px;
+}
+
+#propos {
+    margin-left: 40px;
+}
+
+footer section {
+    margin: 0 30px 0 40px;
+}
+
+footer a {
+    font-size: 16px;
+}

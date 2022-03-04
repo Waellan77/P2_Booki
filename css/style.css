@@ -1,0 +1,352 @@
+/* initialise box-sizing for all elements */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 60%;
+    padding-left: 100px;
+    margin: 50px 0px 10px 0px ;
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+}
+
+#menu li {
+    padding: 51px 50px 0 0;
+    font-size: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    border-top: 5px solid rgb(0, 101, 252);
+    color: rgb(0, 101, 252);
+    padding-top: 45px;
+}
+
+/* part top */
+
+#top {
+    margin: 50px;
+    padding: 30px;
+}
+
+#search {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.fa-location-dot {
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 15px 0px 0px 15px;
+    background-color: rgb(242, 242, 242);
+    padding: 15px;
+}
+
+.search {
+    border: 1px solid rgb(242, 242, 242);
+    padding: 15px;
+}
+
+.fa-magnifying-glass {
+    visibility: hidden;
+}
+
+.button {
+    position: absolute;
+    left: 333px;
+    border: 1px solid rgb(0, 101, 252);
+    border-radius: 0px 15px 15px 0px;
+    background-color: rgb(0, 101, 252);
+    color: rgb(255, 255, 255);
+    padding: 15px 15px 15px 0px;
+}
+
+#filtres {
+    display: flex;
+    margin: 20px 0px;
+}
+
+#filtres form {
+    display: flex;
+    align-items: center;
+}
+
+#filtres button {
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 0px 20px 0px 0px;
+    margin: 0px 10px;
+}
+
+#filtres span {
+    margin-left: 10px;
+}
+
+#filtres button:hover {
+    background-color: rgb(0, 101, 252);
+    color: rgb(255, 255, 255);
+}
+
+#filtres i {
+    border: 2px solid rgb(222, 235, 255);
+    border-radius: 50px;
+    background-color: rgb(222, 235, 255);
+    color: rgb(0, 101, 252);
+    padding: 10px;
+    margin: -2px;
+}
+
+#info {
+    display: flex;
+    position: relative;
+}
+
+.fa-info {
+    position: absolute;
+    top: 2px;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 50px;
+    color: rgb(0, 101, 252);
+    padding: 10px 15px 10px 15px;
+}
+
+#info p {
+    margin-left: 50px;
+}
+
+/* accomodation and popular */
+
+#accommodationandpopular {
+    display: flex;
+}
+
+/* part accommodation (hébergement) */
+
+#hebergements {
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 20px;
+    background-color: rgb(242, 242, 242);
+    margin: 50px;
+    padding: 50px;
+}
+
+.accommodation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#hebergements article {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(217, 217, 217);
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 300px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+.accommodation img {
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+
+#hebergements .description {
+    margin-left: 10px;
+}
+
+#hebergements a {
+    text-decoration: none;
+    color: black;
+}
+
+#hebergements article:hover {
+    box-shadow: 6px 6px 6px rgb(94, 94, 94);
+}
+
+.stargrey {
+    color: rgb(217, 217, 217);
+}
+
+.starblue {
+    color: rgb(0, 101, 252);
+}
+
+#hebergements h2 {
+    margin-left: 20px;
+}
+
+#plus {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* part most popular */
+
+#mostpopular {
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 20px;
+    background-color: rgb(242, 242, 242);
+    margin: 50px;
+    padding: 50px;
+}
+
+#title {
+    display: flex;
+    justify-content: space-around;
+}
+
+#mostpopular .fa-chart-line {
+    margin-top: 13px;
+}
+
+#mostpopular h2 {
+    margin-left: -34px;
+}
+
+#mostpopular article {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(217, 217, 217);
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 200px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+#mostpopular article:hover {
+    box-shadow: 6px 6px 6px rgb(94, 94, 94);
+}
+
+#mostpopular a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+}
+
+#mostpopular img {
+    border-radius: 20px 0px 0px 20px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.mostpopular {
+    margin-left: 20px;
+} 
+
+/* part activities */
+
+#activites {
+    margin-left: 50px;
+}
+
+#horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+#activites .height {
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(217, 217, 217);
+    width: 500px;
+    height: 650px;
+    margin: 0px 50px 20px 0px;
+}
+
+#activites .width {
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(217, 217, 217);
+    width: 420px;
+    height: 300px;
+    margin: 0px 50px 50px 0px;
+}
+
+.height img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.width img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+#activites p {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#activites a {
+    text-decoration: none;
+    color: black;
+}
+
+#activites article:hover {
+    box-shadow: 6px 6px 6px rgb(94, 94, 94);
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    padding: 50px 0px 50px 0px;
+}
+
+#propos {
+    margin-left: 50px;
+}
+
+footer section {
+    margin-right: 300px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 30px 0px 0px -41px;
+}
+
+footer li {
+    margin: 15px 0px 15px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
