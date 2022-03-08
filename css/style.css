@@ -84,6 +84,11 @@ header {
     padding: 15px 15px 15px 0px;
 }
 
+.button:hover {
+    color: black;
+    font-weight: bold;
+}
+
 #filtres {
     display: flex;
     margin: 20px 0px;
