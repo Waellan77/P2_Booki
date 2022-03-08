@@ -254,6 +254,10 @@ header {
     height: 100%;
 }
 
+.bleuetblanc {
+    width: 194px !important;
+}
+
 #mostpopular img {
     border-radius: 20px 0px 0px 20px;
     width: 150px;
@@ -273,6 +277,11 @@ header {
 #horizontal {
     display: flex;
     justify-content: space-between;
+}
+
+#horizontal h2 {
+    font-size: 18px;
+    margin-left: 10px;
 }
 
 #activites .height {

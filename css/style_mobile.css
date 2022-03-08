@@ -142,7 +142,7 @@ h2 {
 }
 
 #mostpopular img {
-    width: 35%;
+    width: 35% !important;
 }
 
 /* partie hébergements */

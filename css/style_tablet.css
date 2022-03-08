@@ -99,7 +99,7 @@ header {
 }
 
 #mostpopular img {
-    width: 35%;
+    width: 35% !important;
 }
 
 /* partie hébergements */
@@ -141,6 +141,7 @@ header {
 
 #horizontal h2 {
     font-size: 16px;
+    margin-left: 10px;
 }
 
 #activites .height {
