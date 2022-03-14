@@ -41,7 +41,7 @@ header {
 }
 
 #menu a:hover {
-    border-top: 5px solid rgb(0, 101, 252);
+    border-top: 5px solid;
     color: rgb(0, 101, 252);
     padding-top: 45px;
 }
@@ -59,7 +59,6 @@ header {
 }
 
 .fa-location-dot {
-    border: 1px solid rgb(242, 242, 242);
     border-radius: 15px 0px 0px 15px;
     background-color: rgb(242, 242, 242);
     padding: 15px;
@@ -77,7 +76,7 @@ header {
 .button {
     position: absolute;
     left: 333px;
-    border: 1px solid rgb(0, 101, 252);
+    border: 1px solid;
     border-radius: 0px 15px 15px 0px;
     background-color: rgb(0, 101, 252);
     color: rgb(255, 255, 255);
@@ -118,7 +117,6 @@ header {
 }
 
 #filtres i {
-    border: 2px solid rgb(222, 235, 255);
     border-radius: 50px;
     background-color: rgb(222, 235, 255);
     color: rgb(0, 101, 252);
@@ -153,7 +151,6 @@ header {
 /* part accommodation (hébergement) */
 
 #hebergements {
-    border: 1px solid rgb(242, 242, 242);
     border-radius: 20px;
     background-color: rgb(242, 242, 242);
     margin: 50px;
@@ -167,7 +164,6 @@ header {
 }
 
 #hebergements article {
-    border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 6px 6px 6px rgb(217, 217, 217);
     background-color: rgb(255, 255, 255);
@@ -217,7 +213,6 @@ header {
 /* part most popular */
 
 #mostpopular {
-    border: 1px solid rgb(242, 242, 242);
     border-radius: 20px;
     background-color: rgb(242, 242, 242);
     margin: 50px;
@@ -238,7 +233,6 @@ header {
 }
 
 #mostpopular article {
-    border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 6px 6px 6px rgb(217, 217, 217);
     background-color: rgb(255, 255, 255);
