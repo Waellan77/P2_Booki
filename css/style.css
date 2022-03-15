@@ -1,4 +1,4 @@
-/* initialise box-sizing for all elements */
+/* on décide que l'élément ne dépasse pas de sa boîte sur toute la page */
 
 * {
     box-sizing: border-box;
@@ -46,16 +46,23 @@ header {
     padding-top: 45px;
 }
 
-/* part top */
+/* partie haute */
 
 #top {
     margin: 50px;
     padding: 30px;
 }
 
+/* partie recherche */
+
 #search {
     display: flex;
     margin: 20px 0px;
+}
+
+.search::placeholder {
+    color: black;
+    font-weight: bold;
 }
 
 .fa-location-dot {
@@ -87,6 +94,8 @@ header {
     color: black;
     font-weight: bold;
 }
+
+/* partie filtre */
 
 #filtres {
     display: flex;
@@ -124,6 +133,8 @@ header {
     margin: -2px;
 }
 
+/* partie information */
+
 #info {
     display: flex;
     position: relative;
@@ -142,13 +153,13 @@ header {
     margin-left: 50px;
 }
 
-/* accomodation and popular */
+/* hébergements et populaires */
 
 #accommodationandpopular {
     display: flex;
 }
 
-/* part accommodation (hébergement) */
+/* section hébergement */
 
 #hebergements {
     border-radius: 20px;
@@ -210,7 +221,7 @@ header {
     margin-left: 20px;
 }
 
-/* part most popular */
+/* section plus populaires */
 
 #mostpopular {
     border-radius: 20px;
@@ -267,7 +278,7 @@ header {
     margin-left: 20px;
 } 
 
-/* part activities */
+/* section activités */
 
 #activites {
     margin-left: 50px;
