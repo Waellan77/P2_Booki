@@ -159,6 +159,10 @@ header {
     display: flex;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* section hébergement */
 
 #hebergements {
@@ -368,4 +372,8 @@ footer a {
     color: black;
     font-size: 18px;
     font-weight: 500;
+}
+
+footer a:hover {
+    color: rgb(0, 101, 252);
 }
