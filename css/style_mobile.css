@@ -72,6 +72,11 @@ h1 {
     width: 100%;
 }
 
+.search::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
 .button {
     left: 275px;
     border-radius: 15px 15px 15px 15px;
