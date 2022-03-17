@@ -92,6 +92,8 @@ header {
 
 .button:hover {
     color: black;
+    background-color: rgb(242, 242, 242);
+    border: none;
     font-weight: bold;
 }
 
