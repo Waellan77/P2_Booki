@@ -94,7 +94,7 @@ h2 {
     font-size: 18px;
 }
 
-#filtres form {
+#filtres div {
     flex-wrap: wrap;
 }
 
@@ -147,7 +147,7 @@ h2 {
 }
 
 #mostpopular img {
-    width: 35% !important;
+    width: 35%;
 }
 
 /* partie hébergements */

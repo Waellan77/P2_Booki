@@ -104,7 +104,7 @@ header {
     margin: 20px 0px;
 }
 
-#filtres form {
+#filtres div {
     display: flex;
     align-items: center;
 }
@@ -270,11 +270,8 @@ header {
     height: 100%;
 }
 
-.bleuetblanc {
-    width: 194px !important;
-}
-
 #mostpopular img {
+    flex-shrink: 0;
     border-radius: 20px 0px 0px 20px;
     width: 150px;
     object-fit: cover;
